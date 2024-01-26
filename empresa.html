@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos específicos de tu código React */
+    .max-w-3xl { max-width: 48rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .dark\:bg-gray-900 { background-color: #1a202c; }
+    .overflow-hidden { overflow: hidden; }
+    .px-8 { padding-left: 2rem; padding-right: 2rem; }
+    .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+    .relative { position: relative; }
+    .pb-12 { padding-bottom: 3rem; }
+    .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
+    .carousel > div { scroll-snap-align: start; flex: 0 0 100%; max-width: 100%; }
+    .h-96 { height: 24rem; }
+    .flex { display: flex; }
+    .items-center { align-items: center; }
+    .bg-gray-900 { background-color: #1a202c; }
+    .p-8 { padding: 2rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .shadow-lg { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+    .mt-8 { margin-top: 2rem; }
+    .text-white { color: #fff; }
+    .text-4xl { font-size: 2.25rem; }
+    .font-semibold { font-weight: 600; }
+    .text-lg { font-size: 1.125rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .text-2xl { font-size: 1.5rem; }
+    .mr-2 { margin-right: 0.5rem; }
+    .w-full { width: 100%; }
+    .object-fit { object-fit: cover; }
+    .border-radius { border-radius: 0.5rem; }
+  </style>
+  <title>Tu Título</title>
+</head>
+<body>
+  <div class="max-w-3xl mx-auto dark:bg-gray-900 overflow-hidden px-8 py-4">
+    <!-- Carousel -->
+    <div class="relative">
+      <div class="carousel pb-12">
+        <div><img src="/assets/foto-frenteplanta.jpg" class="h-96" alt="foto 1" /></div>
+        <div><img src="/assets/foto_instagram_bsd_cd_130.jpg" class="h-96" alt="foto 1" /></div>
+        <div><img src="/assets/foto_instagram_control_de_nivel.jpg" class="h-96" alt="foto 2" /></div>
+        <div><img src="/assets/foto_instagram_dpr2.jpg" alt="foto 3" class="h-96" /></div>
+        <div><img src="/assets/foto_instagram_fkp7041.jpg" alt="foto 4" class="h-96" /></div>
+        <div><img src="/assets/foto_instagram_hn610.jpg" alt="foto 5" class="h-96" /></div>
+      </div>
+    </div>
+
+    <div class="flex items-center bg-gray-900 p-8 rounded-lg shadow-lg mt-8">
+      <div class="w-1/2 text-white">
+        <h2 class="text-4xl font-semibold mb-4">Nosotros</h2>
+        <p class="text-lg mb-6">
+          Nuestra empresa opera hace más de 70 años, Neumann S.A. Es líder en la fabricación y comercialización de productos de automatización y control, disponiendo de la mayor variedad de modelos del mercado.
+
+          La planta industrial está ubicada en Villa Ballester, Provincia de Buenos Aires, dispone de instalaciones normalizadas, tecnología y maquinarias adecuadas para fabricar sus series de artículos con calidad y confiabilidad de nivel internacional.
+
+          Se destaca también por su sistema de gestión para brindar una gran agilidad en la respuesta a sus clientes y asegurar los tiempos de entrega que le sean requeridos.
+
+          Neumann S.A. dispone de una red de 210 distribuidores en todo el mercado nacional y latinoamericano, con lo cual asegura su presencia y liderazgo en el mercado eléctrico.
+        </p>
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">&#x1F4CC;</span>
+          <p>Buenos Aires 6043 - C.P 1653, Villa Ballester - Buenos Aires - Argentina</p>
+        </div>
+      </div>
+      <div class="w-1/2 pl-8">
+        <img src="/assets/automated_manufacturing_robots.jpg" alt="Imagen Vertical" style="height: 600px; width: 100%; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

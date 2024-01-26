@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilos específicos de tu código React */
+    .bg-blue-950 { background-color: #0c1e3e; }
+    .text-white { color: #fff; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .container { width: 100%; margin-right: auto; margin-left: auto; }
+    .flex { display: flex; }
+    .flex-wrap { flex-wrap: wrap; }
+    .w-full { width: 100%; }
+    .md\:w-1\/3 { width: 33.333333%; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .items-start { align-items: flex-start; }
+    .w-40 { width: 10rem; }
+    .h-auto { height: auto; }
+    .text-sm { font-size: 0.875rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .hover\:text-gray-300:hover { color: #b8c2cc; }
+    .text-center { text-align: center; }
+    .mt-8 { margin-top: 2rem; }
+    .border-t { border-top-width: 1px; }
+    .border-gray-600 { border-color: #718096; }
+    .text-red-500 { color: #f56565; }
+  </style>
+  <title>Tu Título</title>
+</head>
+<body>
+  <footer class="bg-blue-950 text-white">
+    <div class="container mx-auto py-8">
+      <div class="flex flex-wrap -mx-4 items-center justify-start">
+        <!-- Primera fila con el icono de la empresa -->
+        <div class="w-full md:w-1/3 px-4 mb-8 flex items-start">
+          <img
+            src="/assets/logo_sf.png"
+            alt="Imagotipo Fondo Negro"
+            class="w-40 h-auto"
+          />
+        </div>
+
+        <!-- Segunda fila con la dirección, teléfono y correo -->
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="text-sm">
+            <p class="mb-2">
+              Dirección: Buenos Aires 6043 - C.P 1653
+              <br />
+              Villa Ballester - Buenos Aires - Argentina
+            </p>
+            <p class="mb-2">
+              <a href="mailto:info@neumannsa.com">info@neumannsa.com</a>
+            </p>
+            <p>
+              <a href="tel:(54-11) 7731-8725">(54-11) 7731-8725</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Tercera fila con los enlaces a otras páginas -->
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <ul class="flex flex-col space-y-2 items-center">
+            <li>
+              <a href="./" class="hover:text-gray-300">
+                Empresa
+              </a>
+            </li>
+            <li>
+              <a href="./Catalogo2024.pdf" class="hover:text-gray-300">
+                Productos
+              </a>
+            </li>
+            <li>
+              <a href="./localizacion" class="hover:text-gray-300">
+                Localizacion
+              </a>
+            </li>
+            <li>
+              <a href="./contacto" class="hover:text-gray-300">
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Línea que separa el copyright del resto del contenido -->
+      <div class="border-t border-gray-600 mt-8 mb-8"></div>
+
+      <div class="text-center text-sm mt-8">
+        <p>
+          Copyright 2024 NeumannSa · Diseño{' '}
+          <a href="https://dtprogramming.store/" class="text-red-500">
+            DtProgrammingStore
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
